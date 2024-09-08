@@ -45,10 +45,10 @@ const About = () => {
                                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
                                     {
                                         inView ?
-                                            <CountUp start={0} end={45} duration={3} /> :
+                                            <CountUp start={0} end={3} duration={3} /> :
                                             null}
                                 </div>
-                                <div className='font-primary text-sm tracking-[2px]'>Günlük Tecrübe</div>
+                                <div className='font-primary text-sm tracking-[2px]'>Aylık Tecrübe</div>
                             </div>
                         </div>
                         <div className='flex gap-x-8 items-center'>
